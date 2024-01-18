@@ -178,7 +178,7 @@ def handle_request(event):
 
                 # Prepare the response
                 response = {
-                    "version": "1.0",  # Alexa API version
+                    "version": "1.0",  # API version
                     "session": session,  # Current session state
                     "response": {
                         "text": "\n".join(poem_text),  # Combine poem parts into a string
