@@ -1,3 +1,6 @@
+    from string import punctuation, whitespace
+    import requests
+
     def format_text(text: str) -> str:
     """
     Format the text string by removing all punctuation characters,
